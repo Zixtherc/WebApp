@@ -1,7 +1,7 @@
 import flask
 
 home = flask.Blueprint(
-    name = "home",
+    name = "home_app",
     import_name = __name__,
     static_url_path = "/home_app/",
     static_folder = "static",

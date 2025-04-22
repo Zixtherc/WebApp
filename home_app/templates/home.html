@@ -4,6 +4,10 @@
     Home
 {% endblock %}
 
+{% block links %}
+    <link rel = "stylesheet" href = "{{ url_for('home_app.static', filename='css/home.css') }}">    
+{% endblock %}
+
 {% block content %}
-    <h1>Hello world</h1>
+    <h1 class="main_text">Hello world</h1>
 {% endblock %}
