@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Register page
+{% endblock %}
+
+{% block links %}
+    <link rel = "stylesheet" href = "{{ url_for('register.static', filename='css/register.css') }}"> 
+{% endblock %}   
+
+{% block content %}
+    <div class="main_text">
+        <h1>Это страница регистрации</h1>
+    </div>  
+{% endblock %}

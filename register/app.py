@@ -1,9 +1,9 @@
 import flask
 
-home = flask.Blueprint(
-    name = "home_app",
+register = flask.Blueprint(
+    name = "register",
     import_name = __name__,
-    static_url_path = "/home_app/",
+    static_url_path = "/register/",
     static_folder = "static",
     template_folder = "templates"
 )
